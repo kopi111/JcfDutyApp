@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:paddingLeft="20dp"
+        android:id="@+id/code"
+        android:layout_width="413dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="16dp"
+        android:padding="1dp"
+        android:text="Code"
+        android:gravity="center"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:gravity="center"
+
+        android:id="@+id/FineAmount"
+        android:layout_width="408dp"
+        android:layout_height="51dp"
+        android:layout_marginLeft="0dp"
+        android:textSize="18sp"
+        android:text="FineAmount"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/code" />
+
+    <TextView
+        android:gravity="center"
+
+        android:id="@+id/Points"
+        android:layout_width="416dp"
+        android:layout_height="52dp"
+        android:textSize="18sp"
+        android:text="FineAmount"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/FineAmount" />
+
+    <TextView
+        android:gravity="center"
+        android:id="@+id/offence"
+        android:layout_width="408dp"
+        android:layout_height="249dp"
+        android:text="Offence"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/Points" />
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="411dp"
+        android:textSize="18sp"
+        android:layout_height="64dp"
+        android:gravity="center"
+        android:text="Date"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/offence" />
+
+    <TextView
+        android:id="@+id/section"
+        android:layout_width="411dp"
+        android:textSize="18sp"
+        android:layout_height="64dp"
+        android:gravity="center"
+        android:text="Section"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/date" />
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="408dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="148dp"
+        android:gravity="center"
+        android:text="email"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/date" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
